@@ -130,6 +130,8 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
+  border-bottom: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
   margin-top: 0;
   margin-bottom: 1rem;
   font-weight: 300; }
