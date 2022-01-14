@@ -29,7 +29,6 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
-  position: relative;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -166,11 +165,11 @@ a:hover {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: inside; }
 ol {
   list-style: decimal inside; }
 ol, ul {
-  padding-left: 0;
+  padding-left: 4px;
   margin-top: 0; }
 ul ul,
 ul ol,
