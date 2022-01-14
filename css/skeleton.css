@@ -127,12 +127,11 @@ body {
   font-family: "PT Sans Narrow", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
-
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 300; }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem; color: #0FA0CE}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; color: #1EAEDB}
@@ -301,7 +300,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: .5rem; }
 
 
 /* Code
@@ -360,7 +359,8 @@ form {
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
-  width: 100%;
+  width: 50%;
+  height: 50%;
   box-sizing: border-box; }
 .u-max-full-width {
   max-width: 100%;
@@ -374,10 +374,10 @@ form {
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1; }
+  border-top: 2px solid #E1E1E1; }
 
 
 /* Clearing
