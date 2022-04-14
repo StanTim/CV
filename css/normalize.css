@@ -182,7 +182,10 @@ sub {
  */
 
 img {
-  border: 0;
+  border: 2px crimson;
+  border-radius: 50%;
+  width: 222px;
+  height: 222px;
 }
 
 /**
